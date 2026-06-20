@@ -1,18 +1,18 @@
 # Screenshot Guide
 
-This guide defines a consistent screenshot set for a portfolio case study, interview deck or project page. The objective is to show the product's reasoning workflow, not to document every screen.
+This guide defines a consistent screenshot set for a portfolio case study or public project page. The objective is to communicate the product's reasoning workflow rather than document every screen.
 
-## Capture setup
+## Capture Setup
 
-- Use a 1440 × 900 or 1512 × 982 browser viewport so the layout resembles a 13-inch laptop presentation.
-- Start with **Reset Demo**, then select **Start Demo with Fitness Sample** and run the sample diagnosis.
-- Keep browser zoom at 100% and hide bookmarks, personal extensions and unrelated tabs.
-- Capture the English workflow first. Use a separate final image to demonstrate Chinese localization.
-- Do not crop out the sidebar or project header unless the screenshot specifically focuses on a detailed card.
-- Keep synthetic-data notices visible where they provide important context.
-- Use PNG for interface screenshots. Avoid adding annotations inside the product; place callouts in the portfolio layout instead.
+- Use a 1440 x 900 or 1512 x 982 browser viewport so the workspace resembles a 13-inch laptop presentation.
+- Select **Reset Demo**, then **Start Demo with Fitness Sample**, and run the sample diagnosis.
+- Keep browser zoom at 100% and hide bookmarks, personal extensions, and unrelated tabs.
+- Capture the English workflow first. Use one separate image to demonstrate Chinese localization.
+- Keep the sidebar and project header visible unless a screenshot intentionally focuses on one detailed card.
+- Preserve synthetic-data notices when they provide important analytical context.
+- Use PNG for interface screenshots. Add annotations in the surrounding case-study layout, not inside the product.
 
-## Recommended screenshots
+## Recommended Screenshots
 
 ### 1. `dashboard-overview.png`
 
@@ -21,13 +21,13 @@ This guide defines a consistent screenshot set for a portfolio case study, inter
 **Show:**
 
 - Product positioning statement and subtitle.
-- **Start Demo with Fitness Sample** button.
+- **Start Demo with Fitness Sample** action.
 - Four project summary cards.
 - Analysis pipeline from Business Setup to Report.
 
-**Capture note:** Take the screenshot before running diagnosis so the sample entry point and guided workflow are visible. Keep the first viewport uncluttered.
+**Capture note:** Capture the initial state so that the sample entry point and guided workflow are visible.
 
-**Portfolio caption:** “A guided business-analysis workspace that connects context, data, diagnosis, strategy and reporting.”
+**Suggested caption:** A guided business analysis workspace that connects context, data, diagnosis, strategy, and reporting.
 
 ### 2. `diagnosis-bottleneck.png`
 
@@ -35,14 +35,14 @@ This guide defines a consistent screenshot set for a portfolio case study, inter
 
 **Show:**
 
-- Highlighted main bottleneck banner.
-- Core metric cards, especially Activation Rate, Paid Conversion and 30-day Active User Rate.
+- Highlighted main bottleneck.
+- Activation Rate, Paid Conversion, and 30-day Active User Rate cards.
 - Lifecycle funnel and at least one evidence-backed finding.
-- Root Cause Hypotheses heading if it fits without making the text unreadable.
+- Root Cause Hypotheses heading when space allows.
 
-**Capture note:** This is the most important analytical screenshot. Preserve metric definitions and the synthetic-sample notice where possible.
+**Capture note:** Preserve metric definitions and the synthetic-sample notice where possible. This is the primary analytical screenshot.
 
-**Portfolio caption:** “Rules calculate metrics and threshold signals before any narrative recommendation is produced.”
+**Suggested caption:** Rules calculate metrics and threshold signals before any narrative recommendation is produced.
 
 ### 3. `segmentation-overview.png`
 
@@ -55,9 +55,9 @@ This guide defines a consistent screenshot set for a portfolio case study, inter
 - At least one **Targeted by setup** label.
 - The first rows of the segment playbook.
 
-**Capture note:** Make segment names, counts and recommended directions readable. Avoid a crop containing only the chart.
+**Capture note:** Keep segment names, counts, and recommended directions readable. Avoid a chart-only crop.
 
-**Portfolio caption:** “Mutually exclusive behavior segments convert aggregate signals into action groups.”
+**Suggested caption:** Mutually exclusive behavior segments convert aggregate signals into action groups.
 
 ### 4. `strategy-priority-matrix.png`
 
@@ -67,12 +67,12 @@ This guide defines a consistent screenshot set for a portfolio case study, inter
 
 - P0 decision-focus strip.
 - Priority summary cards.
-- Full Priority Matrix, legend and scoring-method note.
-- The heading of the first P0 strategy card if space allows.
+- Full Priority Matrix, legend, and scoring note.
+- The first P0 strategy heading when space allows.
 
-**Capture note:** Hover over a matrix point only if the tooltip remains legible and does not obscure other strategies. A clean matrix is preferable for the portfolio page.
+**Capture note:** Use a clean matrix view. Include a tooltip only if it remains legible and does not obscure other strategies.
 
-**Portfolio caption:** “Strategy priority is calculated from business impact, evidence confidence and implementation effort.”
+**Suggested caption:** Strategy priority is calculated from business impact, evidence confidence, and implementation effort.
 
 ### 5. `experiment-design.png`
 
@@ -81,13 +81,13 @@ This guide defines a consistent screenshot set for a portfolio case study, inter
 **Show:**
 
 - One complete experiment card.
-- Hypothesis, eligible users, control group and treatment group.
+- Hypothesis, eligible users, control group, and treatment group.
 - Primary metrics and success criteria.
-- Expand execution details to include Randomization Unit, Minimum Sample Note and Statistical Decision Rule.
+- Expanded Randomization Unit, Minimum Sample Note, and Statistical Decision Rule.
 
-**Capture note:** Crop around one experiment rather than showing several unreadable cards. Keep the experiment name and source strategy visible.
+**Capture note:** Focus on one experiment rather than several unreadable cards. Keep the source strategy visible.
 
-**Portfolio caption:** “P0/P1 recommendations are translated into falsifiable tests with guardrails and decision rules.”
+**Suggested caption:** P0/P1 recommendations become falsifiable tests with guardrails and decision rules.
 
 ### 6. `report-executive-summary.png`
 
@@ -96,30 +96,30 @@ This guide defines a consistent screenshot set for a portfolio case study, inter
 **Show:**
 
 - Case Study Snapshot.
-- Executive Summary tab.
+- Executive Summary view.
 - Report coverage and decision-focus sidebar.
 - Copy and Export Markdown actions.
 
-**Capture note:** Use a viewport that shows the summary structure without requiring the reader to inspect long paragraphs. A second crop of the Presentation Outline is optional, not required.
+**Capture note:** Use a viewport that communicates the summary structure without requiring the reader to inspect long paragraphs.
 
-**Portfolio caption:** “The management report reuses computed facts and clearly separates data evidence from business context.”
+**Suggested caption:** The executive report reuses computed facts and separates uploaded-data evidence from business context.
 
 ### 7. `chinese-localization.png`
 
-**Page:** Prefer Diagnosis, Strategy or Report
+**Page:** Diagnosis, Strategy, or Report
 
 **Show:**
 
-- Sidebar with **中文** selected.
-- Chinese page title, field labels and analytical explanation.
-- At least one translated strategy, experiment or report section.
-- English abbreviations such as ARPU, LTV/CAC or P0 where professionally appropriate.
+- Sidebar with Chinese mode selected.
+- Localized page title, field labels, and analytical explanation.
+- At least one localized strategy, experiment, or report section.
+- Stable analytical abbreviations such as ARPU, LTV/CAC, and P0 where appropriate.
 
-**Capture note:** Diagnosis is the strongest single-page localization proof because it combines UI labels, metric methodology and dynamic evidence. Report is a good alternative if the portfolio emphasizes communication.
+**Capture note:** Diagnosis provides strong localization evidence because it combines navigation, metric methodology, and dynamic findings. Report is a suitable alternative when the case study emphasizes communication.
 
-**Portfolio caption:** “The presentation and report layers support professional Chinese output while internal schemas and rule IDs remain stable.”
+**Suggested caption:** The interface and report layers support professional Chinese output while internal schemas and rule IDs remain stable.
 
-## Screenshot naming convention
+## Screenshot Naming Convention
 
 Use lowercase kebab-case and keep the recommended names unchanged:
 
@@ -133,18 +133,18 @@ report-executive-summary.png
 chinese-localization.png
 ```
 
-For revisions, add a date or version only outside the final portfolio export, for example `diagnosis-bottleneck-v2.png`. Do not use names such as `Screenshot 2026-06-19.png` in the repository or portfolio source.
+For working revisions, append a version outside the final export, such as `diagnosis-bottleneck-v2.png`. Avoid operating-system-generated screenshot names in the repository.
 
-## Recommended portfolio layout order
+## Recommended Project Showcase Order
 
-1. **Hero:** `dashboard-overview.png` with a one-sentence product proposition.
-2. **Problem and approach:** A short workflow diagram or text summary; no additional screenshot required.
-3. **Credible diagnosis:** `diagnosis-bottleneck.png` as the largest analytical image.
+1. **Product overview:** `dashboard-overview.png` with a one-sentence product proposition.
+2. **Problem and approach:** A short workflow diagram or text summary.
+3. **Credible diagnosis:** `diagnosis-bottleneck.png` as the primary analytical image.
 4. **From insight to audience:** `segmentation-overview.png`.
 5. **From audience to decision:** `strategy-priority-matrix.png`.
 6. **From decision to validation:** `experiment-design.png`.
-7. **Management communication:** `report-executive-summary.png`.
-8. **Localization and implementation quality:** `chinese-localization.png`.
-9. **Limitations and roadmap:** Text summary linked to the decision log and roadmap.
+7. **Executive communication:** `report-executive-summary.png`.
+8. **Localization quality:** `chinese-localization.png`.
+9. **Limitations and roadmap:** A concise summary linked to the decision log and roadmap.
 
-Use one clear message per image. The portfolio narrative should move from evidence to decision to validation, matching the product workflow.
+Use one clear message per image. The narrative should move from evidence to decision to validation, matching the product workflow.
