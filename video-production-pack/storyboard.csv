@@ -1,0 +1,13 @@
+scene_id,timestamp,duration,page,screen_action,voiceover_summary,on_screen_caption,visual_focus,notes
+1,0:00-0:10,10s,Production URL,Open https://growth-strategy-copilot.vercel.app,Introduce the product as an AI-assisted growth diagnosis workspace,AI-assisted growth diagnosis workspace,Production URL and clean dashboard load,Start with a stable browser window at 90% or 100% zoom
+2,0:10-0:22,12s,Dashboard,Click Start Demo with Fitness Sample,Explain that one click loads recommended business context and synthetic sample data,Synthetic data for workflow demonstration,Primary CTA and demo-ready workflow,Reset demo before recording if local state exists
+3,0:22-0:35,13s,Dashboard,Pause on workflow overview,Explain the structured workflow from setup to report,Structured business analysis workflow,Pipeline and workspace cards,Keep cursor still for readability
+4,0:35-0:55,20s,Diagnosis,Open or navigate to Diagnosis,Explain metric calculation and visible threshold rules,Metric-driven bottleneck detection,Metric cards and main bottleneck,Show synthetic data notice if visible
+5,0:55-1:10,15s,Diagnosis,Scroll to Root Cause Hypotheses,Explain cautious hypotheses with evidence type and validation next steps,Root Cause Hypotheses,Root cause hypothesis table,Avoid saying these are confirmed causes
+6,1:10-1:28,18s,Segmentation,Navigate to Segmentation,Explain behavior-based user segments and target groups,User segmentation for targeted strategy,Segment distribution and table,Pause on high-potential and churn-risk segments
+7,1:28-1:48,20s,Strategy,Show Priority Matrix,Explain transparent scoring and P0/P1/P2 ranking,Transparent strategy prioritization,Priority matrix and scoring method,Emphasize rules-first priority logic
+8,1:48-2:06,18s,Strategy,Open or pause on a P0 strategy card,Explain triggered-by evidence and score rationale,P0 strategy focus,Strategy card fields and priority score,Use a P0 card with visible rationale
+9,2:06-2:28,22s,Experiments,Open an experiment card,Explain how strategies become A/B test plans,From strategy to A/B test design,Hypothesis groups metrics and decision rule,Mention experiment sizing is not production-ready
+10,2:28-2:45,17s,Report,Show Executive Summary,Explain management-ready report output,Executive-ready reporting,Executive summary and report tabs,Keep scroll steady
+11,2:45-2:55,10s,Report,Switch English / Chinese,Explain bilingual localization without changing data logic,English / Chinese localization,Language switch and localized report,Briefly show Chinese mode
+12,2:55-3:00,5s,Closing screen,End on production URL or GitHub repository,Summarize the workflow and current limitations,Rules first AI second,Production link or repository page,End cleanly without extra tabs

@@ -124,6 +124,15 @@ The video demo is designed to present the product as a concise portfolio case st
 - Suggested production URL to record: <https://growth-strategy-copilot.vercel.app>
 - Recommended video length: 2-3 minutes
 
+### AI-Narrated Video Demo
+
+The project also includes a video production pack for creating a professional AI-narrated walkthrough without recording a personal voice or face. It includes English and Chinese scripts, SRT subtitles, storyboard, on-screen captions, and production guides for CapCut, HeyGen, and Canva.
+
+- Production pack: [video-production-pack](video-production-pack)
+- Recommended final video length: 2-3 minutes
+- Suggested recording URL: <https://growth-strategy-copilot.vercel.app>
+- The demo uses synthetic data and mock AI to demonstrate the workflow.
+
 ## 11. Bilingual Localization
 
 Growth Strategy Copilot supports English / Chinese localization for product demos and different user contexts. The default interface is English, while Chinese mode localizes navigation, metric explanations, strategy cards, experiment design, and report output.
@@ -254,4 +263,17 @@ docs/
   video-demo-guide.md        Video script, shot list, and recording guide
   video-recording-checklist.md
                               Pre-recording and post-production checklist
+video-production-pack/
+  full-demo-script-en.md     Full English AI voiceover script
+  short-demo-script-en.md    Short English preview script
+  full-demo-script-zh.md     Full Chinese AI voiceover script
+  short-demo-script-zh.md    Short Chinese preview script
+  storyboard.csv             Scene-by-scene production storyboard
+  subtitles-en.srt           English subtitle file
+  subtitles-zh.srt           Chinese subtitle file
+  on-screen-captions.md      Overlay caption copy
+  capcut-production-guide.md CapCut AI voiceover workflow
+  heygen-production-guide.md HeyGen production workflow
+  canva-production-guide.md  Canva production workflow
+  video-cover-copy.md        Titles, descriptions, and social copy
 ```

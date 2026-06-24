@@ -1,0 +1,89 @@
+1
+00:00:00,000 --> 00:00:08,000
+Growth Strategy Copilot is an AI-assisted
+growth diagnosis workspace.
+
+2
+00:00:08,000 --> 00:00:15,000
+It supports subscription teams from data
+to strategy, experiments, and reporting.
+
+3
+00:00:15,000 --> 00:00:25,000
+Growth analysis often follows a repeated workflow:
+define the problem, check metrics, and find bottlenecks.
+
+4
+00:00:25,000 --> 00:00:35,000
+Then teams segment users, prioritize strategies,
+design tests, and communicate the result.
+
+5
+00:00:35,000 --> 00:00:45,000
+This demo uses synthetic data and mock AI.
+The goal is to demonstrate the workflow.
+
+6
+00:00:45,000 --> 00:00:55,000
+It is not claiming real business inference
+from the sample dataset.
+
+7
+00:00:55,000 --> 00:01:05,000
+The Diagnosis page starts with
+deterministic metric calculation.
+
+8
+00:01:05,000 --> 00:01:15,000
+It calculates activation, paid conversion,
+completion, active user rate, churn, and ARPU.
+
+9
+00:01:15,000 --> 00:01:25,000
+Visible rules and thresholds translate metrics
+into evidence-backed decision signals.
+
+10
+00:01:25,000 --> 00:01:35,000
+Next, users are segmented by behavior,
+payment status, recency, and price sensitivity.
+
+11
+00:01:35,000 --> 00:01:50,000
+Segments such as high-potential users and
+churn-risk users make the diagnosis actionable.
+
+12
+00:01:50,000 --> 00:02:02,000
+Strategies are scored using bottleneck severity,
+segment size, goal alignment, and evidence strength.
+
+13
+00:02:02,000 --> 00:02:15,000
+The result is a transparent P0, P1,
+and P2 priority ranking.
+
+14
+00:02:15,000 --> 00:02:25,000
+P0 and P1 strategies become
+structured A/B test plans.
+
+15
+00:02:25,000 --> 00:02:35,000
+Each plan includes target users, groups,
+metrics, guardrails, and a decision rule.
+
+16
+00:02:35,000 --> 00:02:45,000
+The Report page packages the analysis into
+an executive summary and detailed report.
+
+17
+00:02:45,000 --> 00:02:55,000
+It also provides a presentation outline
+and English / Chinese localization.
+
+18
+00:02:55,000 --> 00:03:00,000
+Growth Strategy Copilot keeps AI support
+structured, traceable, and reviewable.
