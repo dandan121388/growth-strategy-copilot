@@ -104,24 +104,33 @@ The following should remain rule-driven:
 
 The recommended product walkthrough takes three to five minutes.
 
-1. **Dashboard** — Select **Start Demo with Fitness Sample** and introduce the product as a structured decision-support workspace.
-2. **Business Setup** — Show the preconfigured problem, target users, primary goal, and previous strategies. Explain that this context affects prioritization.
-3. **Data Upload** — Confirm that 160 synthetic rows and all 16 required fields are loaded, then select **Run Diagnosis**.
-4. **Diagnosis** — Lead with the main bottleneck, metric definitions, evidence-backed findings, and Root Cause Hypotheses.
-5. **Segmentation** — Show how behavior rules turn aggregate signals into action groups and how setup targets affect ordering.
-6. **Strategy** — Present the P0 focus, Priority Matrix, transparent score components, and previous-attempt penalty.
-7. **Experiments** — Open one P0/P1 experiment and review its hypothesis, groups, metrics, guardrails, and statistical decision rule.
-8. **Report** — Switch between Executive Summary, Detailed Analysis, and Presentation Outline. Emphasize that quantified lifts are test targets, not forecasts.
+1. **Dashboard** - Select **Start Demo with Fitness Sample** and introduce the product as a structured decision-support workspace.
+2. **Business Setup** - Show the preconfigured problem, target users, primary goal, and previous strategies. Explain that this context affects prioritization.
+3. **Data Upload** - Confirm that 160 synthetic rows and all 16 required fields are loaded, then select **Run Diagnosis**.
+4. **Diagnosis** - Lead with the main bottleneck, metric definitions, evidence-backed findings, and Root Cause Hypotheses.
+5. **Segmentation** - Show how behavior rules turn aggregate signals into action groups and how setup targets affect ordering.
+6. **Strategy** - Present the P0 focus, Priority Matrix, transparent score components, and previous-attempt penalty.
+7. **Experiments** - Open one P0/P1 experiment and review its hypothesis, groups, metrics, guardrails, and statistical decision rule.
+8. **Report** - Switch between Executive Summary, Detailed Analysis, and Presentation Outline. Emphasize that quantified lifts are test targets, not forecasts.
 
 Use **Reset Demo** to clear browser-local workspace state and repeat the walkthrough. See [docs/screenshot-guide.md](docs/screenshot-guide.md) for project showcase capture guidance.
 
-## 10. Bilingual Localization
+## 10. Video Demo
+
+The video demo is designed to present the product as a concise portfolio case study: what problem it addresses, how the workflow operates, and how rule-based analysis connects to strategy, experiments, and reporting.
+
+- Demo guide and scripts: [docs/video-demo-guide.md](docs/video-demo-guide.md)
+- Recording checklist: [docs/video-recording-checklist.md](docs/video-recording-checklist.md)
+- Suggested production URL to record: <https://growth-strategy-copilot.vercel.app>
+- Recommended video length: 2-3 minutes
+
+## 11. Bilingual Localization
 
 Growth Strategy Copilot supports English / Chinese localization for product demos and different user contexts. The default interface is English, while Chinese mode localizes navigation, metric explanations, strategy cards, experiment design, and report output.
 
 The selected language is stored in browser localStorage and persists after refresh. Internal strategy IDs, CSV fields, TypeScript types, and JSON schema keys remain English so that data contracts and calculations do not diverge by language.
 
-## 11. Deployment
+## 12. Deployment
 
 ### Local development
 
@@ -173,7 +182,7 @@ The current demo uses mock analysis and does not require an API key. A future se
 
 Workspace state and language preference are stored in browser localStorage. State is browser- and device-specific and is not synchronized through Vercel, authentication, or a database. See [docs/deployment-notes.md](docs/deployment-notes.md) for details.
 
-## 12. Limitations
+## 13. Limitations
 
 - The sample is synthetic, point-in-time data and cannot establish causality.
 - The 30-day Active User Rate is a recency proxy, not cohort month-two retention.
@@ -184,17 +193,17 @@ Workspace state and language preference are stored in browser localStorage. Stat
 - The current release uses mock structured output rather than a real AI provider.
 - Non-fitness business types are report context only in the current release.
 
-## 13. Future Roadmap
+## 14. Future Roadmap
 
 The roadmap has three stages:
 
-1. **Demo-ready MVP** — Complete the rules-first workflow, deterministic sample, localization, experiment plans, reports, and public deployment.
-2. **AI integration** — Add a governed narrative layer with structured output validation, factual consistency checks, evaluation cases, and deterministic fallback content.
-3. **Business expansion** — Add domain-specific content subscription and SaaS templates, production data contracts, cohort retention, campaign data, benchmarks, historical analysis, and strategy outcome review.
+1. **Demo-ready MVP** - Complete the rules-first workflow, deterministic sample, localization, experiment plans, reports, and public deployment.
+2. **AI integration** - Add a governed narrative layer with structured output validation, factual consistency checks, evaluation cases, and deterministic fallback content.
+3. **Business expansion** - Add domain-specific content subscription and SaaS templates, production data contracts, cohort retention, campaign data, benchmarks, historical analysis, and strategy outcome review.
 
 The detailed plan is available in [docs/future-roadmap.md](docs/future-roadmap.md). Key design choices are documented in [docs/product-decision-log.md](docs/product-decision-log.md).
 
-## 14. Tech Stack
+## 15. Tech Stack
 
 - **Frontend:** Next.js App Router, React, TypeScript, Tailwind CSS.
 - **Charts:** Recharts.
@@ -204,7 +213,7 @@ The detailed plan is available in [docs/future-roadmap.md](docs/future-roadmap.m
 - **AI boundary:** Mock structured analysis endpoint with a replaceable provider interface.
 - **Deployment:** Vercel.
 
-## 15. Repository Structure
+## 16. Repository Structure
 
 ```text
 app/
@@ -242,4 +251,7 @@ docs/
   future-roadmap.md          Staged product roadmap
   deployment-checklist.md    Preview and production QA checklist
   deployment-notes.md        Runtime, state, and security notes
+  video-demo-guide.md        Video script, shot list, and recording guide
+  video-recording-checklist.md
+                              Pre-recording and post-production checklist
 ```
